@@ -1,0 +1,22 @@
+User-Agent: *
+Disallow: 
+Allow: /dashboard
+Disallow: /dashboard/admin.php
+Disallow: /dashboard/admin_controls.php
+Disallow: /Course_v1_00/retrieve.php
+Disallow: /Course_v1_00/s3.php
+Disallow: /Course_v1_00/check.php
+Disallow: /Course_v1_00/PDF_viewer/viewer.html
+Disallow: /Profile
+Disallow: /Profile/edit.php
+Disallow: /Calendar
+Disallow: /SignIn/signin.php
+Disallow: /SignIn/logout.php
+Disallow: /SignUp/signup.php
+Disallow: /Notes_and_FlashCards
+Allow: /SignIn
+Disallow: /Course_v1_00
+Disallow: /dasboard/CourseProgress
+Disallow: /Notes_and_FlashCards
+Allow: /SignUp
+Allow: /AboutUs

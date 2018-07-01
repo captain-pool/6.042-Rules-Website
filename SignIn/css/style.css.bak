@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+h1
+{
+  font-family:'Josefin Sans',sans-serif;
+  font-size:55px;
+  font-style:Italic;
+}
+.header
+{
+  width:100%;
+  box-shadow:0px 2px 1px #888888;
+  order:1
+}
+.page-wrap
+{
+}
+body
+{
+  background:url('../Resources/back.jpg') repeat-y;
+  background-size:cover;
+}
+.head_anchors
+{
+  display:inline-block;
+  text-decoration:none;
+  padding:10px 10px 0px 10px;
+  font-size:20px;
+  min-height: 40px;
+  color:#407fe5;
+  font-family:'Josefin Sans', sans-serif;
+  transition:background-color 0.3s ease-in-out;
+  font-weight:bold;
+  letter-spacing:2px;
+  border-radius:20px;
+  border-color:Transparent;
+}
+.head_anchors:hover
+{
+  background-color:#3ca0f2;
+  color:white;
+}
+.drop_menu
+{
+  text-align:center;
+}
+.drop_menu:hover .dropdown-content
+{
+  display: block;
+}
+.body_content
+{
+  font-family:'Roboto',sans-serif;
+  text-align: center;
+  text-justify: inter-word;
+  width: 100%;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+@keyframes rot_ate
+{
+  from{transition:rotate(0deg)}
+  to{transform:rotate(45deg)}
+}
+@-webkit-key-frames rot_ate
+{
+  from{transition:rotate(0deg)}
+  to{transform:rotate(45deg)}
+}
+
+
+/**/
+#signup-form
+{
+  width:450px;
+  margin:50px;
+  font-family:'Roboto';
+}
+input[type=email]
+{
+  border:none;
+  height:30px;
+  width:200px;
+  background-color:white;
+  border-bottom:3px solid black;
+  transition:width 0.3s ease-in-out;
+}
+input[type=password]
+{
+  border:none;
+  height:30px;
+  width:200px;
+  background-color:white;
+  border-bottom:3px solid black;
+  transition:width 0.3s ease-in-out;
+}
+input[type=email]:focus
+{
+  border-bottom:3px solid #3b78db;
+  width:300px;
+}
+input[type=password]:focus
+{
+  border-bottom:3px solid #3b78db;
+  width:300px;
+}
+#sub
+{
+  margin:20px;
+  border:none;
+  border-radius:20px;
+  background-color:#5ca2db;
+  height:70px;
+  width:150px;
+  font-family:'Roboto';
+  font-size:20px;
+  color:white;
+  transition:background-color 0.3s ease-in-out;
+  cursor:pointer;
+  display:none;
+}
+#sub:hover
+{
+  background-color:#4788bc;
+}
+#notif
+{
+  width:10px;
+  height:10px;
+}
+#notif img
+{
+  width:10px;
+  height:10px;
+}
+#notif_
+{
+  width:10px;
+  height:10px;
+}
+#notif_ img
+{
+  width:100px;
+  height:100px;
+}
+#sub:disabled
+{
+  background-color:#efefef;
+  pointer-events:none;
+  color:Gray;
+}

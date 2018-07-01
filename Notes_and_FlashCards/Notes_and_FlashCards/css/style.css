@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:500|Dosis|Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+#title
+{
+  font-family:'Josefin Sans',sans-serif;
+  font-size:55px;
+  font-style:italic;
+}
+
+.bdy
+{
+  margin:20px;
+  border:1px solid #e1e1e1;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  box-shadow:3px 5px 5px #e2e2e2;
+  height:auto;
+  width:97%;
+
+}
+#note-list
+{
+  height:auto;
+}
+
+.edit:hover
+{
+  background-color:rgba(200,200,200,0.8);
+}
+.delete:hover
+{
+  background-color:rgba(200,200,200,0.8);
+}
+.item-button
+{
+  text-decoration:none;
+  cursor:pointer;
+  height:100%;
+  width:100%;
+}
+.text
+{
+  font-family:'comfortaa',sans-serif;
+  font-size:40px;
+  margin:20px;
+}
+.navig
+{
+  height:50px;
+}
+.navig a
+{
+  font-size:20px;
+  position:relative;
+  text-decoration:none;
+  height:50px;
+}
+

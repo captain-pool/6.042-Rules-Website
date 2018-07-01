@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+#title
+{
+  font-family:'Caveat',cursive;
+  font-size:55px;
+  color:#4286f4;
+  font-weight: normal;
+}
+
+#page-body li
+{
+  display: block;
+}
+#page-body li
+{
+  float: left;
+}
+.header
+{
+  width:100%;
+  background-color:#2d2d2d;
+  order:1;
+  position:fixed;
+  z-index: 1;
+}
+.header1
+{
+  position:relative;
+}
+.page-wrap
+{
+  order:2;
+}
+h1
+{
+  position:absolute;
+  margin-right:0px;
+}
+.head_anchors
+{
+  margin: 0 0 0 0;
+  padding:10px 20px 10px 20px;
+  min-width: 15%;
+  display:inline-block;
+  color:white;
+  font-size: 18px;
+  font-family: 'Open sans',sans-serif;
+  font-weight:normal;
+  text-align: center;
+  background-color: #474745;
+  transition:background-color 0.3s ease-in-out;
+}
+.head_anchors:hover
+{
+  color:white;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color:#3ca0f2;
+  border-bottom:5px solid #3ca0f2;
+}
+*{box-sizing:border-box}
+
+/*ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #474745;
+    width:100%;
+	float:right;
+}
+ol li {
+    float:right;
+}
+ol li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+ol li a:hover:not(.active) {
+    background-color: #80D8FF;
+	color: black;
+}*/
+
+.home
+{
+  text-decoration:none;
+}
+#page-body li
+{
+  display: block; 
+  float: left;
+}
+.nav-links
+{
+  font-family: sans-serif;
+}
+.page-wrap
+{
+  order:2;
+}
+h3
+{
+  font-family:sans-serif;
+}
+h2
+{
+  font-family: 'Caveat',cursive;
+}
+
+*{box-sizing:border-box}
+.body_content
+{
+  font-family:sans-serif;
+  text-align: center;
+  text-justify: inter-word;
+  width: 80%;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+#course-updates
+{
+  border:1px solid silver;
+  border-radius:10px;
+}
+.hide_show
+{
+  width:95%;
+  margin:2%;
+}
+.hide_show>h2
+{
+  margin:0px 44%;
+}
+#coursenav:hover
+{
+  background-color:#366099;
+}
+#coursenav
+{
+  height:auto;
+  width:auto;
+  border:none;
+  color:white;
+  background-color:#474745;
+  font-size:20px;
+  font-family: sans-serif;
+  border-radius:5px;
+  padding:30px 30px 30px 30px;
+  transition:background-color 0.3s ease-in-out;
+}
+.hide_show:hover
+{
+  background-color:rgba(66, 134, 244, 0.1);
+  cursor:pointer;
+}
+.present
+{
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color:#474745;
+  color:white;
+}

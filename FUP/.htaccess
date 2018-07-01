@@ -1,0 +1,6 @@
+#<Directory /var/www/html/6042Rules.net/wwwroot/FUP>
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /home/ubuntu/.htpasswd
+require valid-user
+#</Directory>

@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Work+Sans:100');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#title
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:55px;
+  font-style:Italic;
+  margin:20px 0px 0px 0px;
+}
+.home
+{
+  text-decoration:none;
+}
+#page-body li
+{
+  display: block;
+}
+.nav-links
+{
+  font-family:'raleway', sans-serif;
+}
+#page-body li
+{
+  float: left;
+}
+.header
+{
+  width:100%;
+  box-shadow:0px 2px 1px #888888;
+  border-bottom-left-radius:20px;
+  border-bottom-right-radius:20px;
+  order:1
+}
+.page-wrap
+{
+  order:2;
+}
+h3
+{
+  font-family:'Comfortaa',cursive;
+}
+h1
+{
+  position:relative;
+  margin-right:500px;
+}
+.head_anchors
+{
+  display:inline-block;
+  text-decoration:none;
+  padding:10px 10px 0px 10px;
+  font-size:20px;
+  color:#8eb3ed;
+  font-family:'Josefin Sans', sans-serif;
+  font-weight:bold;
+  letter-spacing:2px;
+  border-radius:20px;
+  border-color:Transparent;
+}
+.head_anchors:hover
+{
+  background-color:#3ca0f2;
+  color:white;
+}
+*{box-sizing:border-box}
+.body_content
+{
+  font-family:'Roboto',sans-serif;
+  text-align: center;
+  text-justify: inter-word;
+  width: 80%;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+nav {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+#course-updates
+{
+  border:1px solid silver;
+  border-radius:10px;
+}
+.hide_show
+{
+  width:95%;
+  margin:2%;
+}
+.hide_show>h2
+{
+  margin:0px 44%;
+}
+#coursenav:hover
+{
+  background-color:#3978dd;
+}
+#coursenav
+{
+  height:80px;
+  width:100%;
+  border:none;
+  color:White;
+  background-color:#5b97ff;
+  font-size:30px;
+  border-radius:20px;
+  font-family:'Comfortaa',sans-serif;
+}
+.hide_show:hover
+{
+  background-color:rgba(66, 134, 244,0.1);
+  cursor:pointer;
+}

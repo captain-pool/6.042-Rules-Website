@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Work+Sans:100');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#title
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:55px;
+  font-style:Italic;
+  margin:20px 0px 0px 0px;
+}
+.home
+{
+  text-decoration:none;
+}
+h3
+{
+  font-family:'Comfortaa',cursive;
+}
+h1
+{
+  position:relative;
+  margin-right:500px;
+}
+*{box-sizing:border-box}
+nav {
+  font-family: 'Comfortaa', sans-serif;
+}
+#Scores>li
+{
+  border:1px solid silver;
+  border-radius:10px;
+  margin:30px;
+  padding:0px 10px;
+}
+
+
